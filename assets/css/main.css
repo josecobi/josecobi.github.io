@@ -154,6 +154,36 @@ input, select, textarea {
 		line-height: 2.375;
 	}
 
+	.profile-pic{
+		width: 215px;
+		height: 200px;
+		border-radius: 50%;
+	}
+		@media screen and (max-width: 1680px) {
+
+			body, input, select, textarea {
+				font-size: 0.9rem;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			body, input, select, textarea {
+				font-size: 0.8rem;
+			}
+
+		}
+
+		@media screen and (max-width: 360px) {
+
+			body, input, select, textarea {
+				font-size: 0.7rem;
+			}
+
+		
+	}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
